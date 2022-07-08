@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(135, 135, 135);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.contents {
+  width: 700px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.icon {
+  width: 175px;
+}
+
+.iconWithTitle {
+  display: flex;
+  column-gap: 20px;
+}
+
+.iconTitle {
+  font-weight: 400;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.descriptionTitle {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.descriptionText {
+  font-weight: 200;
+}
+
+.screenshotsTitle {
+  font-weight: 400;
+}
+
+.screenshotsImagesOverflow {
+  overflow-x: scroll;
+}
+
+.screenshotsImages {
+  display: flex;
+  column-gap: 10px;
+}
+
+.screenshots img {
+  width: 200px;
+}
+
+.flippImage {
+    border-radius: 25px;
+}
